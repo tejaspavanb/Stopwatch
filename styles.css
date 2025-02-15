@@ -1,0 +1,51 @@
+body{
+    background-color: hsla(304, 41%, 7%, 0.822);
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.stopwatch{
+    font-size: 100px;
+    font-family: 'Orbitron', sans-serif;
+    
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+  
+    margin-top: 100px;
+}
+
+.start{
+    background-color: hsla(120, 100%, 25%, 0.5);
+    font-size: 25px;
+    border-radius: 10px;    
+    cursor: pointer;
+}
+.start:hover{
+    background-color: hsla(120, 100%, 25%, 0.9);
+
+}
+.stop{
+    background-color: hsla(0, 100%, 50%, 0.5);
+    font-size: 25px;
+    border-radius: 10px;    
+    cursor: pointer;
+}
+.stop:hover{
+    background-color: hsla(0, 100%, 50%, 0.8);
+}
+.reset{
+    background-color: hsla(252, 100%, 50%, 0.5);
+    font-size: 25px;
+    border-radius: 10px;    
+    cursor: pointer;
+}
+.reset:hover{
+    background-color: hsla(271, 100%, 50%, 0.8);
+}
